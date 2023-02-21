@@ -1,0 +1,259 @@
+* {
+    background-color:whitesmoke;
+    color: #3f4157;
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 0.03em;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+  color: #edc63c;
+  font-family: cursive;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  letter-spacing: 0.2em;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+h2, h3 {
+    color: peru;
+    font-family: cursive;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    letter-spacing: 0.1em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header h1 {
+    text-align: center;
+    width: 390px;
+}
+
+header h2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    color: #edc63c;
+}
+
+header h4 {
+    position: absolute;
+    left: 425px;
+    top: 0px;
+    color: peru;
+}
+
+header h5 {
+    position: absolute;
+    left: 425px;
+    top: 15px;
+    color: peru;
+}
+
+header p em {
+    font-family: cursive;
+    color: #3f4157;
+}
+
+#images {
+    display: flex;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+figure figcaption cite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 5px 20px 5px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav h1 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 200%;
+}
+
+a {
+    color: darkblue;
+}
+
+a h3 {
+    color: #3f4157;
+    font-size: 150%;
+}
+
+a h3:hover {
+    text-decoration: none;
+    color: #edc63c;
+}
+
+cite {
+    font-size-adjust: 0.4;
+}
+
+p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+dl {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+li {
+    padding-top: 0px;
+}
+
+form {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+form p {
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#OrderForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#OrderForm p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#OrderForm div {
+    margin: 5px;
+    padding: 5px;
+}
+
+#OrderForm label {
+  display: inline-block;
+  text-align: right;
+  width: 120px;
+}
+
+#OrderForm input {
+  padding: 2px;
+  width: 100px;
+}
+
+#OrderForm select {
+  width: 100px;
+}
+
+#OrderForm button.submit {
+  margin-top: 10px;
+  margin-left: 285px;
+  width: 90px;
+}
+
+#ital {
+    text-align: center;
+}
+
+#groups {
+    display: flex;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
+
+#salad p {
+    margin-bottom: 0.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.errorContainer {
+  display: inline-block;
+  color: maroon;
+  font-size: 13px;
+  text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: center;
+    flex: 5;
+    border-style: double;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: slategray;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
